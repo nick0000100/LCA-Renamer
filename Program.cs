@@ -23,19 +23,17 @@ namespace LCA_Renamer
             foreach(FileInfo CurrentFile in Files)
             {
                 String FileName = Path.GetFileNameWithoutExtension(CurrentFile.FullName);
+                String Ex =  Path.GetExtension(CurrentFile.FullName);
 
                 // Rename files with a letter at the end
                 if(Regex.IsMatch(FileName, @"[a-zA-Z]+$"))
                 {
-                    File.Move(CurrentFile.FullName, CurrentFile.FullName.Replace(FileName.Substring(FileName.Length - 1), " Signed Posting Attestation"));
+                    File.Move(CurrentFile.FullName, CurrentFile.FullName.Replace(CurrentFile.Name, $"{LCACode}{CurrentFile.Name.Substring(0, FileName.Length - 1)} Signed Posting Attestation{Ex}"));
                 }
-            }
-
-            // Adds starting code
-            Files = dir.GetFiles();
-            foreach(FileInfo CurrentFile in Files)
-            {
-                File.Move(CurrentFile.FullName, CurrentFile.FullName.Replace(CurrentFile.Name, (LCACode + CurrentFile.Name)));
+                else
+                {
+                    File.Move(CurrentFile.FullName, CurrentFile.FullName.Replace(CurrentFile.Name, ($"C {LCACode}{CurrentFile.Name}")));
+                }
             }
         }
     }

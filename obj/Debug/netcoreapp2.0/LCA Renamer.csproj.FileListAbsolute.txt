@@ -8,3 +8,13 @@ C:\Users\Nick Desktop\Desktop\LCA Renamer\obj\Debug\netcoreapp2.0\LCA Renamer.As
 C:\Users\Nick Desktop\Desktop\LCA Renamer\obj\Debug\netcoreapp2.0\LCA Renamer.AssemblyInfo.cs
 C:\Users\Nick Desktop\Desktop\LCA Renamer\obj\Debug\netcoreapp2.0\LCA Renamer.dll
 C:\Users\Nick Desktop\Desktop\LCA Renamer\obj\Debug\netcoreapp2.0\LCA Renamer.pdb
+C:\Users\v-nisor\Desktop\LCA-Renamer\bin\Debug\netcoreapp2.0\LCA Renamer.deps.json
+C:\Users\v-nisor\Desktop\LCA-Renamer\bin\Debug\netcoreapp2.0\LCA Renamer.runtimeconfig.json
+C:\Users\v-nisor\Desktop\LCA-Renamer\bin\Debug\netcoreapp2.0\LCA Renamer.runtimeconfig.dev.json
+C:\Users\v-nisor\Desktop\LCA-Renamer\bin\Debug\netcoreapp2.0\LCA Renamer.dll
+C:\Users\v-nisor\Desktop\LCA-Renamer\bin\Debug\netcoreapp2.0\LCA Renamer.pdb
+C:\Users\v-nisor\Desktop\LCA-Renamer\obj\Debug\netcoreapp2.0\LCA Renamer.csproj.CoreCompileInputs.cache
+C:\Users\v-nisor\Desktop\LCA-Renamer\obj\Debug\netcoreapp2.0\LCA Renamer.AssemblyInfoInputs.cache
+C:\Users\v-nisor\Desktop\LCA-Renamer\obj\Debug\netcoreapp2.0\LCA Renamer.AssemblyInfo.cs
+C:\Users\v-nisor\Desktop\LCA-Renamer\obj\Debug\netcoreapp2.0\LCA Renamer.dll
+C:\Users\v-nisor\Desktop\LCA-Renamer\obj\Debug\netcoreapp2.0\LCA Renamer.pdb

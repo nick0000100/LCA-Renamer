@@ -10,7 +10,7 @@ namespace LCA_Renamer
     {
         static void Main(string[] args)
         {
-            // Get the directory and starting code of the files to rename
+            // Get the directory and the files to rename
             System.Console.WriteLine("Enter folder path.");
             String FilePath = System.Console.ReadLine();
             DirectoryInfo dir = new DirectoryInfo(@FilePath);
@@ -31,6 +31,7 @@ namespace LCA_Renamer
                 }
             }
 
+            // Adds starting code
             Files = dir.GetFiles();
             foreach(FileInfo CurrentFile in Files)
             {
